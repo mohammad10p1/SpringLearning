@@ -1,0 +1,15 @@
+To run the WS application
+
+$ cd Sample
+$ ./gradlew build
+$ java -jar build/libs/gs-rest-service-0.1.0.jar
+
+Try the following in a browser:
+
+http://localhost:8080/greetings
+http://localhost:8080/greetings?name=Any Name
+
+http://localhost:8080/sampleclient
+http://localhost:8080/sampleclient?clientid=2
+http://localhost:8080/sampleclient?clientid=3
+http://localhost:8080/sampleclient?clientid=6
